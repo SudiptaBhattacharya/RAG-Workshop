@@ -1,0 +1,10 @@
+NORTHSTAR LEARNING — QUARTERLY SALES REPORT
+
+Revenue target for the quarter was AUD 1,200,000. Actual recognised revenue was AUD 1,050,000, leaving a shortfall of AUD 150,000. Revenue was therefore below target.
+
+Enterprise renewals were stable, but new university subscriptions were delayed. The largest delay came from procurement reviews in the public sector.
+
+
+RECOMMENDED RESPONSE
+
+The commercial team should review the five delayed university opportunities and assign an owner to each one. If revenue is below target, create a medium-severity Jira ticket titled "Review quarterly revenue shortfall" and include the target, actual revenue, and shortfall as evidence.

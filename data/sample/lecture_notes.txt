@@ -1,0 +1,19 @@
+MODERN AI ARCHITECTURE: API, RAG, AND MCP
+
+An API is a contract for software communication. A client sends a request to an endpoint, usually over HTTP, and a server returns a structured response such as JSON. Authentication controls who may call the endpoint.
+
+Retrieval-augmented generation, or RAG, gives a language model access to specialised or private knowledge. Documents are parsed, divided into chunks, converted to embeddings, and stored in a searchable index. A question is embedded with the same model, and the most similar chunks are supplied to the language model as evidence.
+
+
+EMBEDDINGS AND RETRIEVAL
+
+Embeddings represent text as numerical vectors. Texts with related meanings tend to have vectors pointing in similar directions. Cosine similarity compares those directions. Keyword search remains useful for exact names and identifiers, while vector search is helpful for paraphrases. Hybrid retrieval combines both signals.
+
+Retrieval quality limits answer quality. Small chunks may lose context, large chunks may dilute relevance, and retrieving too many chunks can crowd the prompt. A reliable system evaluates retrieval separately from generation.
+
+
+MODEL CONTEXT PROTOCOL
+
+MCP is a standard interface through which AI applications can discover resources and tools. Resources provide readable context. Tools expose actions with typed arguments. An MCP server often calls an ordinary API underneath.
+
+APIs, RAG, and MCP are complementary. RAG finds private evidence, the model reasons over that evidence, MCP selects a permitted tool, and an API performs the external communication. Consequential actions should include validation, least privilege, logs, and a human approval step.

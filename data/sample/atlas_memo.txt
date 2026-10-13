@@ -1,0 +1,14 @@
+PROJECT ATLAS — INTERNAL LAUNCH MEMO
+
+Project Atlas will launch on 17 November 2026. The approved spending cap is AUD 42,000. Any request above this limit requires written approval from the programme sponsor.
+
+The pilot will begin with 120 postgraduate students. The success criteria are: at least 80 percent task completion, a median response time below four seconds, and zero disclosure of private student records.
+
+The team will review the pilot after six weeks. Questions about procurement should be directed to the programme office.
+
+
+IMPLEMENTATION NOTE
+
+The document-search prototype uses chunks of approximately 500 characters with 100 characters of overlap. The overlap is intended to keep ideas intact when a sentence or explanation falls close to a chunk boundary.
+
+Every chunk must retain its source filename and page number. Answers should cite these fields so a reader can inspect the evidence.
